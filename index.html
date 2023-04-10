@@ -1,142 +1,243 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
-		<link rel="stylesheet" href="./style.css">
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h2>Hello World!</h2>
-					<p class="with-icon">
-					<span class="fragment fade-right with-icon"><img src="./assets/tauri.svg" width="60" height="60"/> Tauri
-					</span>
-						<span class="fragment fade-right">Aplicaciones</span>
-						<span class="fragment fade-up">Desktop</span>
-						<span class="fragment fade-left">con</span>
-						<span class="fragment fade-left with-icon"><img src="./assets/rust.svg" width="80" height="80"/>Rust</span>
-					</p>
-					<p class="fragment">by: Bogarin Sebastián...</p>
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-auto-animate>
+          <h3>
+            <span class="fragment fade-right">Display: </span>
+            <span class="fragment fade-left">flex</span>
+          </h3>
+          <div class="fragment grid-padre" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Display: Flex</h2>
+          <div class="grid-padre eje1" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Display: Flex</h2>
+          <div class="grid-padre eje2" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Display: Flex</h2>
+          <div class="grid-padre eje3" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Display: Flex</h2>
+          <div class="grid-padre eje4" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Display: Flex</h2>
+          <div class="grid-padre eje5" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Display: Flex</h2>
+          <div class="grid-padre eje6" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <h2>Display: Flex</h2>
+          <div class="grid-padre" data-id="padre">
+            <div class="hijo red" data-id="hijo-r"></div>
+            <div class="hijo green" data-id="hijo-g"></div>
+            <div class="hijo blue" data-id="hijo-b"></div>
+          </div>
+        </section>
+        <section>
+          <div class="wrapper">
+            <div class="one box-smooth">1</div>
+            <div class="two box-smooth">2</div>
+            <div class="three box-smooth">3</div>
+            <div class="four box-smooth">4</div>
+            <div class="five box-smooth">5</div>
+            <div class="six box-smooth">6</div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <div class="my-grid-class">
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+            <div class="grid-child"></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-1 start-r-1" data-id="grid-child">Child</div>
+					</div>
 				</section>
-				<section>
-					<h2>Hablemos sobre rust</h2>
-					<p class="fragment fade with-icon">¿Qué es rust? <img src="./assets/rust.svg" width="80" height="80"/></p>
-					<p class="fragment fade-up">⚡¿Por qué es tan rápido?⚡</p>
-					<p class="fragment fade-up">✅ Manéjo de la memoria ✅</p>
-					<p class="fragment fade-down">🤮 No permite nulos 🤮</p>
-					<p class="fragment fade-right">😁 No memory leaks 😁</p>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-2 start-r-1" data-id="grid-child">Child</div>
+					</div>
 				</section>
-				<section>
-					<p>Nuestro primer hola mundo en Rust 🙋‍♂️🌎</p>
-					<pre>
-						<code data-line-numbers="1|3|3-6">// main.rs
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-3 start-r-1" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-4 start-r-1" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-1 start-r-2" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-2 start-r-2" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-3 start-r-2" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-4 start-r-2" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-1 start-r-3" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-2 start-r-3" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-3 start-r-3" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-4 start-r-3" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-1 start-r-4" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-2 start-r-4" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-3 start-r-4" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        <section data-auto-animate>
+					<div class="my-grid-class">
+						<div class="grid-child start-c-4 start-r-4" data-id="grid-child">Child</div>
+					</div>
+				</section>
+        
+        <section data-auto-animate>
+          <pre>
+						<code data-line-numbers="0|3|5-6|5|6"><style>
+.padre {
+	display: grid;
 
-fn main() {
-    println!("Hello, GDG Formosa!");
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
 }
-</code>
+</style></code>
 					</pre>
-				</section>
-				<section>
-					<p>📦 Manejador de paquetes 📦</p>
-					<pre>
-						<code data-line-numbers="1|2|3|4|8|9">[package]
-name = "rust"
-version = "0.1.0"
-edition = "2021"
+        </section>
+        <section data-auto-animate>
+          <pre>
+						<code data-line-numbers="0|5"><style>
+.padre {
+	display: grid;
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-tokio = { version = "1", features = ["full"] }</code>
+	grid-template-columns: repeat(5, 20%);
+	grid-template-rows: repeat(5, 20%);
+}
+</style></code>
 					</pre>
-				</section>
-				<section>
-					<h3>Desktop Development</h3>
-					<p class="fragment">
-						<span>Nativas:</span>
-						<span class="fragment with-icon"><img src="./assets/vc.svg" width="50" height="50"/>Visual Studio </span>
-						<span class="fragment with-icon"><img src="./assets/swiftui.svg" width="50" height="50"/>SwiftUI </span>
-					</p>
-					<p class="fragment">
-						<span>Hibridas:</span>
-						<span class="fragment with-icon"><img src="./assets/java.svg" width="80" height="80"/>Java </span>
-						<span class="fragment with-icon"><img src="./assets/electron.svg" width="50" height="50"/>Electron </span>
-					</p>
-				</section>
-				<section>
-					<h2>¿Qué hace especial a Electron?</h2>
-					<p class="fragment">😁😁 Permite utilizar herramientas WEB ✅🧩</p>
-					<p class="fragment">⚡🧩Hacer todo con un solo lenguaje de programación😁</p>
-				</section>
-				<section>
-					<h3>¿Herramientas web?????! puff</h3>
-					<p>
-						<span class="fragment">HTML</span>
-						<span class="fragment">CSS</span>
-						<span class="fragment">JavaScript</span>
-					</p>
-					<p>
-						<span class="fragment fade-right with-icon"><img src="./assets/react.svg" width="80" height="80"/> React JS</span>
-						<span class="fragment fade-up with-icon"><img src="./assets/vue.png" width="50" height="50"/> Vue JS</span>
-						<span class="fragment fade-left with-icon"><img src="./assets/svelte.svg" width="50" height="50"/> Svelte JS</span>
-					</p>
-				</section>
-				<section>
-					<h2 class="with-icon"><img src="./assets/tauri.svg" width="60" height="60"/> TAURI</h2>
-					<p class="fragment">🤔¿Qué es Tauri? 🤔</p>
-				</section>
-<section>
-					<pre>
-						<code data-line-numbers="1|1-4|6|6-7|6-8|6-10">#![cfg_attr(
-	all(not(debug_assertions), target_os = "windows"),
-	windows_subsystem = "windows"
-)]
+        </section>
+      </div>
+    </div>
 
-fn main() {
-	tauri::Builder::default()
-		.run(tauri::generate_context!())
-		.expect("error while running tauri application");
-}</code>
-					</pre>
-				</section>
-				<section>
-					<img src="./assets/html-css-js.png" width="1280" height="680">
-				</section>
-				<section>
-					<img src="./assets/vite.png" width="1280" height="680">
-				</section>
-				<section>
-					<img src="./assets/next-js.png" width="1280" height="680">
-				</section>
-				
-			</div>
-		</div>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
